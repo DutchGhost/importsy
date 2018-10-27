@@ -5,3 +5,6 @@ authors = ["DutchGhost <kasper199914@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+tokio = { version = "0.1.0", features = ["async-await-preview"] }
+futures = "*"
+tokio-stdin-stdout = "*"
