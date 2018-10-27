@@ -1,6 +1,7 @@
 #![feature(await_macro, async_await, futures_api, pin, existential_type)]
 
 extern crate tokio;
+extern crate tokio_stdin_stdout;
 extern crate futures;
 
 use tokio::prelude::{AsyncWriteExt, StreamExt, Stream};
